@@ -13,12 +13,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-02-04T18:29:58.091+11:00
+  lastUpdatedAtString: 2021-02-04T18:31:59.807+11:00
   initializedAtString: 2021-02-04T18:24:04.038+11:00
   entries:
   - path: NinjaGame\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: NinjaGame\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: NinjaGame\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -31,6 +43,12 @@ MonoBehaviour:
   - path: NinjaGame\Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: NinjaGame\Library\SourceAssetDB
+    fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\SourceAssetDB
+    projectPath: Library\SourceAssetDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

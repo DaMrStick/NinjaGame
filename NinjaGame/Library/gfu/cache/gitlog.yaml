@@ -13,9 +13,105 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-02-04T18:29:34.084+11:00
+  lastUpdatedAtString: 2021-02-04T18:32:01.639+11:00
   initializedAtString: 2021-02-04T18:24:09.533+11:00
   log:
+  - commitID: d5d6529d1b879c0c67b7ff6ecf112b799722ce15
+    mergeA: 
+    mergeB: 
+    authorName: tomer
+    authorEmail: tomerkubovsky@gmail.com
+    commitEmail: tomerkubovsky@gmail.com
+    commitName: tomer
+    summary: next
+    description: 
+    timeString: 2021-02-04T18:31:56.000+11:00
+    commitTimeString: 2021-02-04T18:31:56.000+11:00
+    changes:
+    - path: NinjaGame\Temp\_919177793\left\Temp\UnityLockfile
+      fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Temp\_919177793\left\Temp\UnityLockfile
+      projectPath: Temp\_919177793\left\Temp\UnityLockfile
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 1839c861178d3b4b7527fb921476a022f0262c5f
+    mergeA: 
+    mergeB: 
+    authorName: tomer
+    authorEmail: tomerkubovsky@gmail.com
+    commitEmail: tomerkubovsky@gmail.com
+    commitName: tomer
+    summary: next
+    description: 
+    timeString: 2021-02-04T18:31:31.000+11:00
+    commitTimeString: 2021-02-04T18:31:31.000+11:00
+    changes:
+    - path: NinjaGame\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NinjaGame\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NinjaGame\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 635b902e81c66fc52729454cd3db9c58be032dd4
+    mergeA: 
+    mergeB: 
+    authorName: tomer
+    authorEmail: tomerkubovsky@gmail.com
+    commitEmail: tomerkubovsky@gmail.com
+    commitName: tomer
+    summary: next
+    description: 
+    timeString: 2021-02-04T18:29:54.000+11:00
+    commitTimeString: 2021-02-04T18:29:54.000+11:00
+    changes:
+    - path: NinjaGame\Library\SourceAssetDB
+      fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NinjaGame\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NinjaGame\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NinjaGame\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NinjaGame\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: NinjaGame\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\amit\Desktop\UnityGames\NinjaGame\NinjaGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 9647b03c4c013305421d7272adc7b7f84a954040
     mergeA: 
     mergeB: 
