@@ -1,6 +1,4 @@
-﻿    
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -39,7 +37,7 @@ public class Ninja : MonoBehaviour
         {
             IsJumping = false;
         }*/
-        if (Input.GetKeyDown("w") && IsJumping == false)
+        if (Input.GetKeyDown("w") && IsJumping == true)
         {
             rb.AddForce(transform.up*speed *10);
             IsJumping = true;

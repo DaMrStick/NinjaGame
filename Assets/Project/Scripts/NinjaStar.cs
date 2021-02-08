@@ -14,10 +14,5 @@ public class NinjaStar : MonoBehaviour
     void Update()
     {
         transform.position += transform.right*-1/2;
-     //   Debug.Log(transform.rotation.eulerAngles.y);
     }
-    /*   public void YRotation(float rotation)
-    {
-        transform.Rotate(0f,90f,0f);
-    }*/
 }
