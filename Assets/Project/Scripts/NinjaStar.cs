@@ -21,9 +21,15 @@ public class NinjaStar : MonoBehaviour
         Debug.Log("hi");
         Debug.DrawRay(transform.position, Vector3.Reflect(transform.position,hit.normal)*100);
         transform.forward = Vector3.Reflect(transform.forward,hit.normal);
+        transform.position += transform.right*-1/2;
+    }
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        ShootRay(transform.right*-1);
     }
     public void ShootRay(Vector3 direction)
     {
         Physics.Raycast(transform.position, direction*1000, out hit);
+        Debug.DrawRay(transform.position, Vector3.Reflect(transform.position,hit.normal)*100);
     }
 }
