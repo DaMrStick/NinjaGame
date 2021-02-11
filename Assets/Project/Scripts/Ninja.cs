@@ -56,8 +56,10 @@ public class Ninja : MonoBehaviour
     {
         GameObject ninPrefab = Instantiate(NinjaStarPrfab);
         Transform nintran = ninPrefab.transform;
-        ninPrefab.transform.position=TopOfAimer.GetComponent<Transform>().position;
+        ninPrefab.transform.position=TopOfAimer.transform.position;
+        ninPrefab.transform.position += Aimer.transform.forward*3;
         ninPrefab.transform.forward = Aimer.transform.forward;
+        ninPrefab.GetComponent<NinjaStar>().ShootRay(transform.right*-1);
         ninPrefab.transform.Rotate(0f,90f,0f);
         ninPrefab.transform.SetParent(NinjaStars.transform);
     }

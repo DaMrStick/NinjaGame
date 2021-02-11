@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class NinjaStar : MonoBehaviour
 {
+    public RaycastHit hit;
     // Start is called before the first frame update
     void Awake()
     {
@@ -18,6 +19,11 @@ public class NinjaStar : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("hi");
-        transform.forward = Vector3.Reflect(transform.forward, collision.transform.position.normalized);
+        Debug.DrawRay(transform.position, Vector3.Reflect(transform.position,hit.normal)*100);
+        transform.forward = Vector3.Reflect(transform.forward,hit.normal);
+    }
+    public void ShootRay(Vector3 direction)
+    {
+        Physics.Raycast(transform.position, direction*1000, out hit);
     }
 }
